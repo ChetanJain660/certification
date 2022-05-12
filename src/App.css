@@ -1,0 +1,21 @@
+:root {
+  margin: 0%;
+  
+}
+.contain{
+  
+  margin-top:10px;
+  margin:0;
+}
+.Link{
+  text-decoration: none;
+  color: inherit;
+
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.hello{
+  position: sticky;
+}

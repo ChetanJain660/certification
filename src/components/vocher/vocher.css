@@ -1,0 +1,29 @@
+body {
+    background: #eee;
+}
+
+.vocherbutton {
+    /* margin: 10px 200px; */
+    display: flex;
+    margin-top: 1rem;
+}
+
+.text-right {
+    margin-left: 0%;
+}
+
+.text-left {
+    margin-left: 60%;
+}
+
+.vochercont {
+
+    /* margin-left: ; */
+    margin-bottom: 40px;
+    margin-top: 3rem;
+}
+
+.rowheader {
+    display: flex;
+    margin: 10px;
+}

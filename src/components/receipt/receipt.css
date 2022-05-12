@@ -1,0 +1,71 @@
+.fs-12 {
+    font-size: 12px
+}
+
+.fs-15 {
+    font-size: 15px
+}
+
+.name {
+    margin-bottom: -2px
+}
+
+.product-details {
+    margin-top: 13px
+}
+/* .receiptheader{
+    overflow: hidden; 
+    display: flex;
+    
+    justify-content: space-between;
+} */
+.wwww{
+    margin-top: -17px;
+    background-color: white;
+    padding: 20px;
+}
+.receipthdb{
+    /* float: left; */
+    margin-top: -100px;
+    padding: 20px;
+    margin-left: 260px;
+    flex: wrap;
+    
+    /* display: flex;
+    justify-content: flex-start;  */
+    /* margin: 50px; */
+    
+}
+.receiptprint{
+    margin-top: 20px;
+    
+}
+
+.submit{
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 30px;
+    line-height: 1.15;
+    margin: 5px 450px;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 130px;
+}

@@ -1,0 +1,204 @@
+.topbar{
+    /* width: 100%; */
+    height: 50%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin: 0;
+    background-color: rgb(228, 228, 228);
+}
+
+.topbarWrapper{
+    /* height: 100%; */
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+    justify-content: space-between;
+
+
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 80px; */
+    
+}
+
+.topbarIconContainer{
+    position: relative;
+    cursor: pointer;
+    color: teal;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-sizing: 15px;
+    border-radius: 0em;
+
+/* width: 150px; */
+}
+
+.topiconbadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: rgb(167, 133, 133);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.topAvathar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* .topheader{
+    
+      background-image: linear-gradient(#0dccea, #a8c8ef);
+      border: 0;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      font-family: Montserrat,sans-serif;
+      font-size: .9em;
+      margin: 5px;
+      padding: 5px 5px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    } */
+    
+   
+    
+    /* CSS */
+    .topheader123 {
+      /* appearance: button; */
+      backface-visibility: hidden;
+      /* background-color: #405cf5; */
+      /* border-radius: 6px; */
+      /* border-width: 0; */
+      /* box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0; */
+      box-sizing: border-box;
+      color: blue;
+      cursor: pointer;
+      font-weight: bold;
+      font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+      font-size: 120%;
+      margin: 10px;
+      /* height: 30px;
+      line-height: 1.15;
+      margin: 15px 6px; */
+      outline: none;
+      overflow: hidden;
+      padding: 10px 10px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      transform: translateZ(0);
+      transition: all .2s,box-shadow .08s ease-in;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 100px;
+      text-align: center;
+    }
+    
+    .topheader:disabled {
+      cursor: default;
+    }
+    
+    .topheader:focus {
+      box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+    }
+
+.topheader:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.topheader123:hover {
+ 
+  background-color: #3c4fe0;
+  color: white;
+  padding: 10px 10px;
+}
+
+.topheader:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+    
+
+
+.topheader {
+  appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 30px;
+    line-height: 1.15;
+    margin: 5px 370px;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 130px;
+}
+
+.topheader:disabled {
+  cursor: default;
+}
+
+.topheader:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.topheader:focus {
+box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.topheader:hover {
+
+background-color: #3c4fe0;
+color: white;
+padding: 10px 10px;
+}
+
+.topheader:active {
+box-shadow: #3c4fe0 0 3px 7px inset;
+transform: translateY(2px);
+}

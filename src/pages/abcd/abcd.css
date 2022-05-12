@@ -1,0 +1,9 @@
+/* .abcd{
+    display: flex;
+} */
+.Sidebar{
+    flex: 1;
+}
+.Home{
+    flex: 4;
+}
